@@ -42,7 +42,7 @@ extension CharacterModel{
         }else if(stat == "Deceased"){
             return Color.red
         }else{
-            return Color.white
+            return Color.orange
         }
     }
 }
