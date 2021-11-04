@@ -7,7 +7,7 @@ My pet project with SwiftUI
 
 API: https://breakingbadapi.com/
 
-![alt text](https://github.com/Icar05/HobbyRandomizer/blob/main/debug.png)
+![alt text](https://github.com/Icar05/BreakingBadForFuns/blob/main/list_episodes.jpg)
 ![alt text](https://github.com/Icar05/BreakingBadForFuns/blob/main/character.jpg)
 
 # License
