@@ -13,7 +13,7 @@ typealias ConvertData = (_ response: DataResponse<Any, AFError>) throws -> Any
 
 class NetworkService {
     
-    let showLogs = false
+    let showLogs = true
         
     func loadRequest<T>(request: URLRequest, parceMethod: @escaping ConvertData) -> Observable<T> {
         return Observable.create{ observer in

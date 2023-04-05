@@ -6,6 +6,7 @@
 //
 
 import RxSwift
+import Foundation
 
 class GlobalDataProviderImpl{
     

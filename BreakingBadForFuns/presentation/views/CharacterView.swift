@@ -62,8 +62,8 @@ struct CharacterView : View{
                     
                     HKeyValueText(key: "Death count: ", value: "\(presenter.state.deathCount)").padding(5)
                     
-                    if let quote = presenter.state.quote , !quote.isEmpty {
-                        HKeyValueText(key: "Quote: ", value: quote).padding(5)
+                    if (!presenter.state.quote.isEmpty) {
+                        HKeyValueText(key: "Quote: ", value: presenter.state.quote).padding(5)
                     }
                     
                     Text("\(presenter.state.models.first?.status ?? "")")
